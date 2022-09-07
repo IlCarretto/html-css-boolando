@@ -6,6 +6,10 @@
 }
 
 /* COMMON */
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     width: 80%;
     margin: 0 auto;
@@ -30,6 +34,7 @@
     height: 80px;
     width: 100%;
     background-color: #ff6900;
+    color: white;
 }
 
 .header-content{
@@ -37,16 +42,24 @@
     background-color: aquamarine;
 }
 
+/* .header-content img{
+    max-width: 100%;
+} */
+
 /* MAIN */
 .wrapper{
     height: 500px;
     width: calc(100% / 3);
     background-color: red;
-    display: flex;
 }
 
 /* FOOTER */
 .footer{
     height: 80px;
     background-color: #1a1a1a;
+}
+
+.row{
+    display:flex;
+    flex-wrap: wrap;
 }
