@@ -27,7 +27,7 @@
 
 /* HEADER */
 .header{
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color: #ff6900;
 }
@@ -43,4 +43,10 @@
     width: calc(100% / 3);
     background-color: red;
     display: flex;
+}
+
+/* FOOTER */
+.footer{
+    height: 80px;
+    background-color: #1a1a1a;
 }
