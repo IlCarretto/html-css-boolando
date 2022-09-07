@@ -20,8 +20,40 @@ html{
     margin-top: 3rem;
 }
 
-/* UTILITIES */
+.red{
+    color: red;
+}
 
+.stroke{
+    text-decoration: line-through;
+}
+
+/* UTILITIES */
+.heart-box{
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.discount{
+    background-color: red;
+    padding: .3rem;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+}
+
+.eco{
+    background-color: green;
+    padding: .3rem;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
 
 .flex-container{
     display: flex;
@@ -35,22 +67,69 @@ html{
     width: 100%;
     background-color: #ff6900;
     color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .header-content{
-    height: 50px;
-    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* .header-content img{
-    max-width: 100%;
-} */
+.header-content nav{
+    display: inline-block;
+}
+
+.header-content img{
+    width: 100%;
+    max-width: 150px;
+}
 
 /* MAIN */
+main{
+    margin-top: 120px;
+}
+
 .wrapper{
     height: 500px;
-    width: calc(100% / 3);
-    background-color: red;
+    width: calc(100% / 3 - 10px);
+    display: flex;
+    position: relative;
+    margin-bottom: 200px;
+    margin-left: 10px;
+}
+
+.wrapper img{
+    max-width: 100%;
+}
+
+.alternative{
+    position: absolute;
+    display: none;
+}
+
+.wrapper:hover .alternative{
+    display: block;
+}
+
+.wrapper-content ul{
+    list-style: none;
+}
+
+.wrapper-content li:first-of-type{
+    font-size: .9rem;
+}
+
+.wrapper-content{
+    position: absolute;
+    bottom: -30%;
+}
+
+.heart-box:hover{
+    color: red;
 }
 
 /* FOOTER */
