@@ -1,0 +1,46 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.mt{
+    margin-top: 3rem;
+}
+
+/* UTILITIES */
+
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* HEADER */
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: #ff6900;
+}
+
+.header-content{
+    height: 50px;
+    background-color: aquamarine;
+}
+
+/* MAIN */
+.wrapper{
+    height: 500px;
+    width: calc(100% / 3);
+    background-color: red;
+    display: flex;
+}
