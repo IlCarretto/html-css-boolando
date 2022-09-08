@@ -30,29 +30,35 @@ html{
 
 /* UTILITIES */
 .heart-box{
-    height: 50px;
-    width: 50px;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
     font-size: 2rem;
     position: absolute;
     top: 0;
     right: 0;
+    text-align: center;
+}
+
+.badges{
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+    text-align: center;
 }
 
 .discount{
     background-color: red;
     padding: .3rem;
     color: white;
-    position: absolute;
-    bottom: 10px;
+    margin-right: 5px;
 }
 
 .eco{
     background-color: green;
     padding: .3rem;
     color: white;
-    position: absolute;
-    bottom: 10px;
-    left: 50px;
+    margin-right: 5px;
 }
 
 .flex-container{
@@ -72,6 +78,7 @@ html{
     left: 0;
     z-index: 1;
 }
+
 
 .header-content{
     display: flex;
